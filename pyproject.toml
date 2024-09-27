@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "salary_prediction"
+version = "0.1.0"
+description = "A project to predict salaries based on work experience"
+authors = ["Obukofe Joseph <119716469+JosephObukofe@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+scipy = "^1.14.1"
+scikit-image = "^0.24.0"
+joblib = "^1.4.2"
+ipykernel = "^6.29.5"
+scikit-learn = "^1.5.2"
+notebook = "^7.2.2"
+seaborn = "^0.13.2"
+imbalanced-learn = "^0.12.3"
+importlib = "^1.0.4"
+statsmodels = "^0.14.3"
+python-dotenv = "^1.0.1"
+h3 = "^3.7.7"
+xgboost = "^2.1.1"
+fastapi = "^0.115.0"
+pydantic = "^2.9.2"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
