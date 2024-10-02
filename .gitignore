@@ -1,7 +1,8 @@
 *.csv
 *.pkl
 __pycache__/
-*.lock
-*.toml
-.env
+/Users/josephobukofe/salary_prediction/poetry.lock*.toml
+/Users/josephobukofe/salary_prediction/pyproject.toml
+/Users/josephobukofe/salary_prediction/.env
 .ipynb_checkpoints
+*DS_store
