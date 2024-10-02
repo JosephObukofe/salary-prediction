@@ -1,0 +1,7 @@
+*.csv
+*.pkl
+__pycache__/
+*.lock
+*.toml
+.env
+.ipynb_checkpoints
